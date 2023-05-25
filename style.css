@@ -18,8 +18,6 @@ a{
 body{
     background-color: #f1faff;
     font-family: 'Poppins', sans-serif;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-				url(https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dHJhZGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80) center/cover no-repeat fixed; */
 }
 .container{
     max-width: 968px;
@@ -183,6 +181,115 @@ i.nav_iconi{
     height: 85vh;
     border: 1px solid red;
 }
+.orta{
+    width: 98%;
+    height: 80vh;
+    margin: 1% 1%;
+    /* border: 5px solid red; */
+}
+.trading{
+    width: 65%;
+    height: 75vh;
+    margin: 10px 0.5%;
+    border: 2px solid black;
+    float: left;
+}
+.boshqaruv{
+    width: 32%;
+    height: 97%;
+    margin: 5px 1%;
+    border-top: 2px solid rgb(7, 246, 39);
+    border-right: 2px solid rgb(7, 246, 39);
+    border-bottom: 2px solid rgb(237, 38, 38);
+    border-left: 2px solid rgb(237, 38, 38);
+    border-radius: 10px;
+    float: left;
+}
+.savdo{
+    width: 100%;
+    height: 130px;
+    /* border: 1px solid black; */
+}
+.savdo button{
+    border-radius: 25px;
+    font-size: 25px;
+    height: 40px;
+    width: 47%;
+    color: #FFF;
+    margin: 5px 1%;   
+}
+.btn{
+    height: 40%;
+    bottom: 0;
+    left: 0;
+}
+.buy{
+    background-color: green;
+}
+.sel{
+    background-color: red;
+}
+.inst{
+    width: 96%;
+    height: 20px;
+    margin: 5px 2%;
+    text-align: center;
+    font-size: 25px;
+}
+.ochish{
+    width: 96%;
+    margin: 10px 2%;
+    border-top: 1px solid rgb(7, 246, 39);
+    border-right: 1px solid rgb(7, 246, 39);
+    border-bottom: 1px solid rgb(237, 38, 38);
+    border-left: 1px solid rgb(237, 38, 38);
+    height: 480px;
+    padding: 2% 2%;
+    justify-content: end;
+}
+.ochish p{
+    width: 50%;
+    height: 22px;
+    font-size: 20px;
+    text-align: left;
+    float: left;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.ochish input{
+    width: 50%;
+    /* right: -20%; */
+    height: 22px;
+    margin: 10px 0;
+}
+.ochish select{
+    width: 50%;
+    /* right: -20%; */
+    height: 22px;
+    margin: 10px 0;
+}
+.ran{
+    width: 50%;
+    border: 2px solid red;
+    height: 40px;
+}
+.foiz{
+    width: 50%;
+    margin-left: 50.8%;
+    margin-top: -10px;
+    /* border: 1px solid red; */
+}
+.foiz h2{
+    font-size: 10px;
+    float: left;
+    margin-right: 5.4%;
+}
+
+
+
+
+
+
 
 
 @media screen and (min-width: 769px){
@@ -200,6 +307,9 @@ i.nav_iconi{
     .container{
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+    .ochish{
+        height: 420px;
     }
 }
 @media screen and (max-width: 768px){
@@ -235,7 +345,19 @@ i.nav_iconi{
         margin: 0 2%;
         top: 0;
     }
+    .trading{
+        width: 98%;
+        height: 50vh;
+    }
+    .boshqaruv{
+        width: 95%;
+        margin: 1% 2.5%;
+    }
+    .boshqaruv{
+        height: 86%;
+    }
+    .ochish{
+        height: 350px;
+    }
 }
-@media screen {
-    
-}
+

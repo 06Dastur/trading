@@ -1,0 +1,443 @@
+.chart{
+    width: 98%;
+    height: 80%;
+    margin: 1% 1%;
+    border: 1px solid rgb(21, 29, 17);
+    overflow-x: auto;
+    border-bottom: none;
+    cursor: pointer;
+    padding: 50px 1%;
+    align-items: center;
+    background: url(https://cdn1.vectorstock.com/i/1000x1000/09/30/stock-market-background-or-forex-trading-business-vector-29570930.jpg) center/cover no-repeat fixed;
+}
+.chart::-webkit-scrollbar{
+    width: 0px;
+}
+.indicator{
+    height: 17%;
+    border: 1px solid green;
+    margin: -1% 1%;
+    background-color: rgb(39, 38, 38);
+    opacity: 0.8;
+}
+.indicator h1{
+    color: #fff;
+    font-size: 15px;
+    margin: 2px 1%;
+}
+.birinchi{
+    width: 15px;
+    height: 50px;
+    border: 1px solid green;
+    float: left;
+    background: none;
+    transform: translateY(56px);
+    align-items: center;
+}
+.ikkinchi{
+    width: 15px;
+    height: 100px;
+    border: 1px solid green;
+    float: left;
+    background: none;
+    margin-top: 10px;
+    margin-left: 1px;
+    
+}
+.ikkinchi3{
+    height: 80px;
+    transform: translateY(60px);
+    border: 1px solid red;
+}
+.ikkinchi4{
+    height: 50px;
+    transform: translateY(75px);
+    border: 1px solid green;
+}
+.ikkinchi5{
+    height: 70px;
+    transform: translateY(78px);
+    border: 1px solid red;
+}
+.ikkinchi6{
+    height: 100px;
+    transform: translateY(50px);
+    border: 1px solid green;
+}
+.ikkinchi7{
+    height: 40px;
+    transform: translateY(40px);
+    border: 1px solid green;
+}
+.ikkinchi8{
+    height: 40px;
+    transform: translateY(60px);
+    border: 1px solid red;
+}
+.ikkinchi9{
+    height: 60px;
+    transform: translateY(50px);
+    border: 1px solid green;
+}
+.ikkinchi9{
+    height: 80px;
+    transform: translateY(-5px);
+    border: 1px solid green;
+}
+.ikkinchi10{
+    height: 50px;
+    transform: translateY(15px);
+    border: 1px solid red;
+}
+.ikkinchi11{
+    height: 80px;
+    transform: translateY(35px);
+    border: 1px solid red;
+}
+.ikkinchi12{
+    height: 30px;
+    transform: translateY(25px);
+    border: 1px solid green;
+}
+.ikkinchi13{
+    height: 50px;
+    transform: translateY(45px);
+    border: 1px solid red;
+}
+.ikkinchi14{
+    height: 70px;
+    transform: translateY(65px);
+    border: 1px solid red;
+}
+.ikkinchi15{
+    height: 50px;
+    transform: translateY(95px);
+    border: 1px solid red;
+}
+.ikkinchi16{
+    height: 70px;
+    transform: translateY(78px);
+    border: 1px solid green;
+}
+.ikkinchi17{
+    height: 50px;
+    transform: translateY(60px);
+    border: 1px solid green;
+    animation-name: onyetti;
+    animation-duration: 120s;
+}
+.ikkinchi18{
+    height: 50px;
+    transform: translateY(60px);
+    border: none;
+    animation-name: onyetti;
+    animation-duration: 120s;
+    animation-delay: 120s;
+}
+@keyframes onyetti{
+    0%{
+        border: 1px solid red;
+        transform: translateY(65px);
+    }
+    2%{
+        border: 1px solid red;
+        transform: translateY(78px);
+        height: 35px;
+    }
+    4%{
+        border: 1px solid red;
+        transform: translateY(90px);
+        height: 60px;
+    }
+    6%{
+        border: 1px solid green;
+        transform: translateY(60px);
+        height: 55px;
+    }
+    8%{
+        border: 1px solid green;
+        transform: translateY(50px);
+        height: 60px;
+    }
+    8%{
+        border: 1px solid green;
+        transform: translateY(35px);
+        height: 70px;
+    }
+    10%{
+        border: 1px solid red;
+        transform: translateY(65px);
+        height: 40px;
+    }
+    12%{
+        border: 1px solid red;
+        transform: translateY(75px);
+        height: 50px;
+    }
+    14%{
+        border: 1px solid green;
+        transform: translateY(15px);
+        height: 80px;
+    }
+    16%{
+        border: 1px solid green;
+        transform: translateY(5px);
+        height: 85px;
+    }
+    18%{
+        border: 1px solid red;
+        transform: translateY(45px);
+        height: 55px;
+    }
+    20%{
+        border: 1px solid red;
+        transform: translateY(65px);
+        height: 45px;
+    }
+    22%{
+        border: 1px solid red;
+        transform: translateY(75px);
+        height: 35px;
+    }
+    24%{
+        border: 1px solid green;
+        transform: translateY(55px);
+        height: 55px;
+    }
+    26%{
+        border: 1px solid green;
+        transform: translateY(35px);
+        height: 75px;
+    }
+    28%{
+        border: 1px solid green;
+        transform: translateY(25px);
+        height: 85px;
+    }
+    30%{
+        border: 1px solid green;
+        transform: translateY(5px);
+        height: 105px;
+    }
+    30%{
+        border: 1px solid green;
+        transform: translateY(-5px);
+        height: 115px;
+    }
+    32%{
+        border: 1px solid green;
+        transform: translateY(-25px);
+        height: 135px;
+    }
+    34%{
+        border: 1px solid red;
+        transform: translateY(15px);
+        height: 105px;
+    }
+    36%{
+        border: 1px solid red;
+        transform: translateY(35px);
+        height: 85px;
+    }
+    38%{
+        border: 1px solid red;
+        transform: translateY(65px);
+        height: 55px;
+    }
+    40%{
+        border: 1px solid red;
+        transform: translateY(105px);
+        height: 15px;
+    }
+    42%{
+        border: 1px solid red;
+        transform: translateY(115px);
+        height: 15px;
+    }
+    44%{
+        border: 1px solid green;
+        transform: translateY(95px);
+        height: 15px;
+    }
+    46%{
+        border: 1px solid green;
+        transform: translateY(85px);
+        height: 25px;
+    }
+    48%{
+        border: 1px solid green;
+        transform: translateY(65px);
+        height: 45px;
+    }
+    50%{
+        border: 1px solid red;
+        transform: translateY(95px);
+        height: 15px;
+    }
+    52%{
+        border: 1px solid red;
+        transform: translateY(115px);
+        height: 15px;
+    }
+    54%{
+        border: 1px solid green;
+        transform: translateY(85px);
+        height: 45px;
+    }
+    56%{
+        border: 1px solid green;
+        transform: translateY(65px);
+        height: 65px;
+    }
+    58%{
+        border: 1px solid red;
+        transform: translateY(75px);
+        height: 55px;
+    }
+    60%{
+        border: 1px solid green;
+        transform: translateY(55px);
+        height: 75px;
+    }
+    62%{
+        border: 1px solid green;
+        transform: translateY(45px);
+        height: 85px;
+    }
+    64%{
+        border: 1px solid green;
+        transform: translateY(15px);
+        height: 115px;
+    }
+    66%{
+        border: 1px solid red;
+        transform: translateY(55px);
+        height: 75px;
+    }
+    68%{
+        border: 1px solid green;
+        transform: translateY(45px);
+        height: 85px;
+    }
+    70%{
+        border: 1px solid red;
+        transform: translateY(95px);
+        height: 35px;
+    }
+    72%{
+        border: 1px solid red;
+        transform: translateY(115px);
+        height: 15px;
+    }
+    74%{
+        border: 1px solid green;
+        transform: translateY(95px);
+        height: 35px;
+    }
+    76%{
+        border: 1px solid green;
+        transform: translateY(75px);
+        height: 55px;
+    }
+    78%{
+        border: 1px solid red;
+        transform: translateY(105px);
+        height: 25px;
+    }
+    80%{
+        border: 1px solid GREEN;
+        transform: translateY(85px);
+        height: 45px;
+    }
+    82%{
+        border: 1px solid red;
+        transform: translateY(105px);
+        height: 25px;
+    }
+    84%{
+        border: 1px solid green;
+        transform: translateY(95px);
+        height: 35px;
+    }
+    86%{
+        border: 1px solid green;
+        transform: translateY(85px);
+        height: 45px;
+    }
+    88%{
+        border: 1px solid green;
+        transform: translateY(55px);
+        height: 75px;
+    }
+    90%{
+        border: 1px solid red;
+        transform: translateY(75px);
+        height: 55px;
+    }
+    92%{
+        border: 1px solid red;
+        transform: translateY(95px);
+        height: 35px;
+    }
+    94%{
+        border: 1px solid green;
+        transform: translateY(55px);
+        height: 75px;
+    }
+    96%{
+        border: 1px solid green;
+        transform: translateY(45px);
+        height: 85px;
+    }
+    98%{
+        border: 1px solid red;
+        transform: translateY(75px);
+        height: 55px;
+    }
+    98%{
+        border: 1px solid red;
+        transform: translateY(85px);
+        height: 45px;
+    }
+}
+.sell{
+    background: red;
+    height: 40px;
+}
+.all{
+    width: 2000px;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+    .indicator h1{
+        font-size: 10px;
+    }
+}
