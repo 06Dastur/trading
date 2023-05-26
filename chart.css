@@ -7,11 +7,10 @@
     border-bottom: none;
     cursor: pointer;
     padding: 50px 1%;
-    align-items: center;
-    background: url(https://cdn1.vectorstock.com/i/1000x1000/09/30/stock-market-background-or-forex-trading-business-vector-29570930.jpg) center/cover no-repeat fixed;
+	background: url(https://cdn1.vectorstock.com/i/1000x1000/09/30/stock-market-background-or-forex-trading-business-vector-29570930.jpg) center/cover no-repeat fixed;
 }
 .chart::-webkit-scrollbar{
-    width: 0px;
+    /* width: 0px; */
 }
 .indicator{
     height: 17%;
