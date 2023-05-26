@@ -275,19 +275,14 @@ i.nav_iconi{
 }
 .foiz{
     width: 50%;
-    margin-left: 50.8%;
-    margin-top: -10px;
-    border: 1px solid red;
-    height: 10px;
+    margin-left: 50%;
+    margin-top: -13px;
+    height: 15px;
 }
-.foiz h2{
-    font-size: 10px;
-    float: left;
+.foiz img{
     width: 100%;
-    letter-spacing: 1px;
-    margin: 0 2%;
+    height: 100%;
 }
-
 
 
 
@@ -312,7 +307,13 @@ i.nav_iconi{
         margin-right: 1rem;
     }
     .ochish{
-        height: 420px;
+        height: 500px;
+    }
+    .trading{
+        width: 52%;
+    }
+    .boshqaruv{
+        width: 45%;
     }
 }
 @media screen and (max-width: 768px){
@@ -360,7 +361,7 @@ i.nav_iconi{
         height: 86%;
     }
     .ochish{
-        height: 350px;
+        height: 420px;
     }
 }
 
