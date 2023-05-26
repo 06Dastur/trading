@@ -243,7 +243,7 @@ i.nav_iconi{
     border-right: 1px solid rgb(7, 246, 39);
     border-bottom: 1px solid rgb(237, 38, 38);
     border-left: 1px solid rgb(237, 38, 38);
-    height: 420px;
+    height: 480px;
     padding: 2% 2%;
     justify-content: end;
     border-top-right-radius: 5%;
@@ -309,7 +309,7 @@ i.nav_iconi{
         margin-right: 1rem;
     }
     .ochish{
-        height: 420px;
+        height: 500px;
     }
     .trading{
         width: 52%;
@@ -363,7 +363,7 @@ i.nav_iconi{
         height: 86%;
     }
     .ochish{
-        height: 350px;
+        height: 380px;
     }
 }
 
