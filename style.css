@@ -277,12 +277,15 @@ i.nav_iconi{
     width: 50%;
     margin-left: 50.8%;
     margin-top: -10px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
+    height: 10px;
 }
 .foiz h2{
     font-size: 10px;
     float: left;
-    margin-right: 5.4%;
+    width: 100%;
+    letter-spacing: 1px;
+    margin: 0 2%;
 }
 
 
