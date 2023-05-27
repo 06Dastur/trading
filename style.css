@@ -197,7 +197,7 @@ i.nav_iconi{
 .boshqaruv{
     width: 32%;
     height: 96%;
-    margin: 5px 1%;
+    margin: 10px 1%;
     border-top: 2px solid rgb(7, 246, 39);
     border-right: 2px solid rgb(7, 246, 39);
     border-bottom: 2px solid rgb(237, 38, 38);
@@ -243,7 +243,7 @@ i.nav_iconi{
     border-right: 1px solid rgb(7, 246, 39);
     border-bottom: 1px solid rgb(237, 38, 38);
     border-left: 1px solid rgb(237, 38, 38);
-    height: 580px;
+    height: 350px;
     padding: 2% 2%;
     justify-content: end;
     border-top-right-radius: 5%;
@@ -260,13 +260,11 @@ i.nav_iconi{
 }
 .ochish input{
     width: 50%;
-    /* right: -20%; */
     height: 22px;
     margin: 10px 0;
 }
 .ochish select{
     width: 50%;
-    /* right: -20%; */
     height: 22px;
     margin: 10px 0;
 }
@@ -309,7 +307,7 @@ i.nav_iconi{
         margin-right: 1rem;
     }
     .ochish{
-        height: 580px;
+        height: 345px;
     }
     .trading{
         width: 52%;
@@ -363,7 +361,7 @@ i.nav_iconi{
         height: 86%;
     }
     .ochish{
-        height: 520px;
+        height: 300px;
     }
 }
 
