@@ -196,7 +196,7 @@ i.nav_iconi{
 }
 .boshqaruv{
     width: 32%;
-    height: 96%;
+    height: 74vh;
     margin: 10px 1%;
     border-top: 2px solid rgb(7, 246, 39);
     border-right: 2px solid rgb(7, 246, 39);
@@ -243,7 +243,7 @@ i.nav_iconi{
     border-right: 1px solid rgb(7, 246, 39);
     border-bottom: 1px solid rgb(237, 38, 38);
     border-left: 1px solid rgb(237, 38, 38);
-    height: 58vh;
+    height: 60vh;
     padding: 2% 2%;
     justify-content: end;
     border-top-right-radius: 5%;
@@ -306,9 +306,6 @@ i.nav_iconi{
         margin-left: 1rem;
         margin-right: 1rem;
     }
-    .ochish{
-        /* height: 345px; */
-    }
     .trading{
         width: 52%;
     }
@@ -359,9 +356,6 @@ i.nav_iconi{
     }
     .boshqaruv{
         height: 86%;
-    }
-    .ochish{
-        height: 55vh;
     }
 }
 
