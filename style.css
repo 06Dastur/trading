@@ -282,8 +282,25 @@ i.nav_iconi{
     width: 100%;
     height: 100%;
 }
-
-
+.rek{
+    width: 96%;
+    margin: 18% auto;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 10px;
+    z-index: 1;
+}
+.rek img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    z-index: 1;
+}
+.rek p{
+    width: 100%;
+    margin-top: -1.5%;
+    z-index: 10;
+}
 
 
 
@@ -356,6 +373,9 @@ i.nav_iconi{
     }
     .ochish{
         height: 380px;
+    }
+    .rek{
+        margin: 3% auto;
     }
 }
 
