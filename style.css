@@ -198,17 +198,16 @@ i.nav_iconi{
     width: 32%;
     height: 74vh;
     margin: 10px 1%;
-    border-top: 2px solid rgb(7, 246, 39);
+    /* border-top: 2px solid rgb(7, 246, 39);
     border-right: 2px solid rgb(7, 246, 39);
     border-bottom: 2px solid rgb(237, 38, 38);
-    border-left: 2px solid rgb(237, 38, 38);
+    border-left: 2px solid rgb(237, 38, 38); */
     border-radius: 10px;
     float: left;
 }
 .savdo{
     width: 100%;
     height: 130px;
-    /* border: 1px solid black; */
 }
 .savdo button{
     border-radius: 25px;
@@ -243,7 +242,7 @@ i.nav_iconi{
     border-right: 1px solid rgb(7, 246, 39);
     border-bottom: 1px solid rgb(237, 38, 38);
     border-left: 1px solid rgb(237, 38, 38);
-    height: 58vh;
+    height: 57vh;
     padding: 2% 2%;
     justify-content: end;
     border-top-right-radius: 5%;
